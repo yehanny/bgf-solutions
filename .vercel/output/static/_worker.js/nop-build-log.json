@@ -1,0 +1,42 @@
+{
+  "timestamp": 1715347562529,
+  "outputDir": ".vercel/output/static/_worker.js",
+  "versions": {
+    "@cloudflare/next-on-pages": "1.11.3"
+  },
+  "buildFiles": {
+    "functions": {
+      "invalid": [],
+      "middleware": [],
+      "edge": [],
+      "prerendered": [],
+      "ignored": []
+    },
+    "staticAssets": [
+      "/404.html",
+      "/500.html",
+      "/Landing.jpg",
+      "/_next/static/V9qhwc806yqUmb0a1gTaH/_buildManifest.js",
+      "/_next/static/V9qhwc806yqUmb0a1gTaH/_ssgManifest.js",
+      "/_next/static/chunks/831-5aa0c7622034cc84.js",
+      "/_next/static/chunks/framework-a85322f027b40e20.js",
+      "/_next/static/chunks/main-12f515071e1f1222.js",
+      "/_next/static/chunks/pages/_app-1c5bfcb241cde4aa.js",
+      "/_next/static/chunks/pages/_error-1af1a055c1584d40.js",
+      "/_next/static/chunks/pages/index-d1c924205985872e.js",
+      "/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js",
+      "/_next/static/chunks/webpack-d38be8d96a62f950.js",
+      "/_next/static/css/0991f512a282963c.css",
+      "/favicon.png",
+      "/images/bfg-solutions-logo-white.png",
+      "/images/bfg-solutions-logo.png",
+      "/images/splash.jpg",
+      "/index.html"
+    ],
+    "identifiers": {
+      "wasm": {},
+      "manifest": {},
+      "webpack": {}
+    }
+  }
+}
