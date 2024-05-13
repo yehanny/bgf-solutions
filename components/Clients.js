@@ -41,7 +41,7 @@ const Clients = () => {
         <div className="w-3/5 p-6 mx-auto bg-white rounded-2xl border border-gray-300 md:bg-opacity-100 md:p-10">
           <div className="flex flex-wrap items-center justify-center flex-shrink -mt-6 -ml-6 space-x-6 space-y-6">
             {ourClients.map((client) => (
-              <img key={client.id} className="h-10 md:h-28" src={client.logo} alt={client.alt} />
+              <img key={client.id} className="h-10 md:h-28" src={client.logo} alt={client.alt} fetchpriority="auto" />
             ))}
           </div>
         </div>

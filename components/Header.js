@@ -20,7 +20,7 @@ export default function Header() {
     },
     {
       name: "Contactos",
-      href: "#contact",
+      href: "#contacts",
     },
   ];
   return (
@@ -28,7 +28,7 @@ export default function Header() {
       <div className="flex flex-col px-4 pt-4 mx-auto text-black roboto-regular max-w-7xl md:mx-10 lg:mx-20 xl:mx-auto md:flex-row md:items-center md:justify-between">
         <div className="flex flex-row items-center justify-between p-4">
           <Link href="/" className="text-4xl font-semibold tracking-tight text-transparent bg-clip-text md:text-gray-900">
-            <Image src="/images/bfg-solutions-logo.png" width={200} height={80} alt="BFG Solutions Logo" />
+            <img src="/images/bfg-solutions-logo.png" width={200} height={80} alt="BGF Solutions Logo" fetchpriority="high" />
           </Link>
           <button className="px-3 py-1 bg-blue-950 rounded-full cursor-pointer bg-opacity-80 focus:outline-none md:hidden" type="button" aria-label="button" onClick={() => setNavbarOpen(!navbarOpen)}>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

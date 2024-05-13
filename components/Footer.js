@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="flex justify-center text-gray-400">
           <div className="grid grid-cols-2 gap-8 mb-20 md:gap-28 md:grid-cols-4">
             <ul className="space-y-1.5">
-              <li className="mb-4 font-semibold text-white uppercase">BFG | Solutions</li>
+              <li className="mb-4 font-semibold text-white uppercase">BGF | Solutions</li>
               <li>
                 <a href="#aboutus">Nosotros</a>
               </li>
@@ -65,8 +65,8 @@ export default function Footer() {
         </div>
         <p className="-mt-8 mb-12 text-center text-gray-300">
           Todos los derechos reservados &copy; 2024 |
-          <a href="https://bfg-solutions.com/?utm_source=website" className="ml-2 underline">
-            bfg-solutions.com
+          <a href="https://bgf-solutions.com/?utm_source=website" className="ml-2 underline">
+            bgf-solutions.com
           </a>
         </p>
       </div>

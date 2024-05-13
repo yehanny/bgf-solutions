@@ -1,6 +1,50 @@
 import Image from "next/image";
+import Slider from "react-slick";
 
 export default function Features() {
+  const settings = {
+    dots: false,
+    infinite: true,
+    slidesToShow: 3,
+    className: "center",
+    centerMode: true,
+    slidesToScroll: 1,
+    arrows: true,
+    autoplay: true,
+    pauseOnHover: true,
+    speed: 2000,
+    autoplaySpeed: 1000,
+    cssEase: "linear",
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 450,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+        },
+      },
+    ],
+  };
   const features = [
     {
       title: "Fluidos de perforación, rehabilitación y completación de pozos",
@@ -41,14 +85,14 @@ export default function Features() {
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-1 grid-rows-2 gap-8 text-lg md:grid-cols-2 lg:grid-cols-3">
+          <Slider {...settings}>
             {features.map((feature, index) => (
-              <div key={index} className="flex flex-col justify-between p-5 transition duration-400 bg-white bg-opacity-20 rounded-xl card-hover group space-y-5">
-                <Image src={feature.image} alt={feature.alt} width={200} height={150} className="w-full h-full object-cover rounded-lg transition-all ease-in-out" />
-                <h3 className="text-xl font-semibold text-white">{feature.title}</h3>
+              <div key={index} className="p-5 mr-5 bg-white bg-opacity-20 rounded-xl space-y-5 min-h-[250px] md:min-h-[280px] lg:min-h-[350px] min-w-[120px]">
+                <img src={feature.image} alt={feature.alt} width={100} height={80} className="w-full object-cover rounded-lg transition-all ease-in-out" />
+                <h3 className="text-sm md:text-lg lg:text-xl font-semibold text-white">{feature.title}</h3>
               </div>
             ))}
-          </div>
+          </Slider>
         </div>
       </div>
     </section>
