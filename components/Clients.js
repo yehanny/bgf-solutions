@@ -6,7 +6,7 @@ const Clients = () => {
   const settings = {
     dots: false,
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 5,
     className: "center",
     centerMode: true,
     slidesToScroll: 1,
@@ -15,11 +15,21 @@ const Clients = () => {
     speed: 2000,
     autoplaySpeed: 1000,
     cssEase: "linear",
+    arrows: false,
     responsive: [
       {
         breakpoint: 1200,
         settings: {
           slidesToShow: 5,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 996,
+        settings: {
+          slidesToShow: 4,
           slidesToScroll: 1,
           infinite: true,
           dots: false,
@@ -35,9 +45,18 @@ const Clients = () => {
         },
       },
       {
+        breakpoint: 460,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: false,
+        },
+      },
+      {
         breakpoint: 320,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
           dots: false,
@@ -81,7 +100,7 @@ const Clients = () => {
     <section className="bg-blue-100">
       <div className="space-y-6 text-center py-32">
         <h2 className="text-lg font-semibold tracking-wide text-center text-opacity-75 uppercase md:mx-10 text-gray-600">Algunos de nuestros clientes</h2>
-        <div className="w-full h-auto mx-0 md:mx-auto md:w-3/5 p-3 bg-white rounded-2xl border border-gray-300 md:bg-opacity-100 md:p-10">
+        <div className="w-full h-auto md:mx-auto md:w-3/4 p-3 bg-white rounded-2xl border border-gray-300 md:bg-opacity-100 md:p-10">
           <div className="">
             <Slider {...settings}>
               {ourClients.map((client) => (
