@@ -1,7 +1,50 @@
 import React from "react";
 import Link from "next/link";
+import Slider from "react-slick";
 
 const Clients = () => {
+  const settings = {
+    dots: false,
+    infinite: true,
+    slidesToShow: 3,
+    className: "center",
+    centerMode: true,
+    slidesToScroll: 1,
+    autoplay: true,
+    pauseOnHover: true,
+    speed: 2000,
+    autoplaySpeed: 1000,
+    cssEase: "linear",
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 5,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 320,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+        },
+      },
+    ],
+  };
   const ourClients = [
     {
       id: 1,
@@ -37,12 +80,14 @@ const Clients = () => {
   return (
     <section className="bg-blue-100">
       <div className="space-y-6 text-center py-32">
-        <h1 className="text-lg font-semibold tracking-wide text-center text-gray-100 text-opacity-75 uppercase md:mx-10 md:text-gray-600">Algunos de nuestros clientes</h1>
-        <div className="w-3/5 p-6 mx-auto bg-white rounded-2xl border border-gray-300 md:bg-opacity-100 md:p-10">
-          <div className="flex flex-wrap items-center justify-center flex-shrink -mt-6 -ml-6 space-x-6 space-y-6">
-            {ourClients.map((client) => (
-              <img key={client.id} className="h-10 md:h-28" src={client.logo} alt={client.alt} fetchpriority="auto" />
-            ))}
+        <h2 className="text-lg font-semibold tracking-wide text-center text-opacity-75 uppercase md:mx-10 text-gray-600">Algunos de nuestros clientes</h2>
+        <div className="w-full h-auto mx-0 md:mx-auto md:w-3/5 p-3 bg-white rounded-2xl border border-gray-300 md:bg-opacity-100 md:p-10">
+          <div className="">
+            <Slider {...settings}>
+              {ourClients.map((client) => (
+                <img key={client.id} className="" width={120} height={80} src={client.logo} alt={client.alt} fetchpriority="auto" />
+              ))}
+            </Slider>
           </div>
         </div>
       </div>

@@ -9,12 +9,8 @@ export default function Features() {
     className: "center",
     centerMode: true,
     slidesToScroll: 1,
-    arrows: true,
     autoplay: true,
     pauseOnHover: true,
-    speed: 2000,
-    autoplaySpeed: 1000,
-    cssEase: "linear",
     responsive: [
       {
         breakpoint: 1200,
@@ -28,7 +24,7 @@ export default function Features() {
       {
         breakpoint: 800,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
           dots: false,
@@ -88,7 +84,7 @@ export default function Features() {
           <Slider {...settings}>
             {features.map((feature, index) => (
               <div key={index} className="p-5 mr-5 bg-white bg-opacity-20 rounded-xl space-y-5 min-h-[250px] md:min-h-[280px] lg:min-h-[350px] min-w-[120px]">
-                <img src={feature.image} alt={feature.alt} width={100} height={80} className="w-full object-cover rounded-lg transition-all ease-in-out" />
+                <img src={feature.image} alt={feature.alt} width={200} height={200} className="w-full object-cover rounded-lg transition-all ease-in-out" />
                 <h3 className="text-sm md:text-lg lg:text-xl font-semibold text-white">{feature.title}</h3>
               </div>
             ))}
