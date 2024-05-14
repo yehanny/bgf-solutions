@@ -83,7 +83,7 @@ export default function Features() {
           </div>
           <Slider {...settings}>
             {features.map((feature, index) => (
-              <div key={index} className="p-5 mr-5 bg-white bg-opacity-20 rounded-xl space-y-5 min-h-[250px] md:min-h-[280px] lg:min-h-[350px] min-w-[120px]">
+              <div key={index} className="p-5 mr-5 bg-white bg-opacity-20 rounded-xl card-hover space-y-5 min-h-[250px] md:min-h-[280px] lg:min-h-[350px] min-w-[120px]">
                 <img src={feature.image} alt={feature.alt} width={200} height={200} className="w-full object-cover rounded-lg transition-all ease-in-out" />
                 <h3 className="text-sm md:text-lg lg:text-xl font-semibold text-white">{feature.title}</h3>
               </div>
