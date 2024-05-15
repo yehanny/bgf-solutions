@@ -1,0 +1,64 @@
+{
+  "PageLayout": {
+    "page_title": "BGF Solutions",
+    "description": "At BGF SOLUTIONS, C.A. We are dedicated to the manufacture and distribution of chemical products for the industry in general."
+  },
+  "Header": {
+    "home": "Home",
+    "about-us": "About",
+    "services": "Services",
+    "products": "Products",
+    "contacts": "Contact",
+    "LocaleSwitcher": {
+      "switchLocale": "{locale, select, es {ES} en {EN} other {Unknown}}"
+    }
+  },
+  "Hero": {
+    "title": "We are BGF Solutions",
+    "subtitle": "We are dedicated to the manufacture and distribution of chemical products for",
+    "cta": "Get information",
+    "cta_description": "You will be assisted by our representatives \nas soon as possible"
+  },
+  "Typing": {
+    "text1": "oil industry",
+    "text2": "petrochemistry",
+    "text3": "mining",
+    "text4": "general industry"
+  },
+  "Contacts": {
+    "title": "Contact Us",
+    "subtitle": "Let's keep in touch, we want to hear from you",
+    "firstname": "First name",
+    "lastname": "Last name",
+    "email": "Email",
+    "message": "Message",
+    "message_text": "Leave your message",
+    "send": "Send",
+    "errors": {
+      "lastname": "Last name is required",
+      "email": "Invalid email format (user@mail.com)",
+      "message": "Tell us how can we help you. (Min: 30 chars)"
+    },
+    "email_sent": "Email was sent..."
+  },
+  "Footer": {
+    "about_us": "About",
+    "clients": "Clients",
+    "services": "Services",
+    "title": "BGF Solutions",
+    "contacts": "Contacts",
+    "products": "Products",
+    "general": "General",
+    "insulators": "Insulators for oil and gas pipelines",
+    "refractory_line": "Refractory Line",
+    "others": "Others",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "resources": "Resources",
+    "quality_policies": "Quality Policies",
+    "siaho": "SIAHO Policies",
+    "brochure_download": "Download Brochure",
+    "rights": "All rights reserved"
+  }
+}

@@ -9,17 +9,20 @@ import Pricing from "../components/Pricing";
 import Testimonies from "../components/Testimonies";
 import Action from "../components/Action";
 import Footer from "../components/Footer";
+import { GetStaticPropsContext } from "next";
+import { useTranslations } from "next-intl";
 
 const Home: NextPage = () => {
+  const t = useTranslations("PageLayout");
   return (
     <>
       <Head>
-        <title>BFG Solutions</title>
-        <meta content="En BGF SOLUTIONS, C.A. nos dedicamos a la fabricación y distribución de productos químicos para la industria en general" name="description" />
-        <meta property="og:url" content="bfg-solutions.com" />
-        <meta property="og:description" content="En BGF SOLUTIONS, C.A. nos dedicamos a la fabricación y distribución de productos químicos para la industria en general" />
-        <meta property="og:title" content="BFG Solutions" />
-        <meta property="og:image" content="" />
+        <title>{t("page_title")}</title>
+        <meta content={t("description")} name="description" />
+        <meta property="og:url" content="bgfsolutions.com" />
+        <meta property="og:description" content={t("description")} />
+        <meta property="og:title" content={t("page_title")} />
+        <meta property="og:image" content={t("/Landing.jpg")} />
         <link rel="shortcut icon" href="/favicon.png" />
         <link rel="stylesheet" type="text/css" charSet="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
@@ -41,5 +44,12 @@ const Home: NextPage = () => {
     </>
   );
 };
+export async function getStaticProps({ locale }: GetStaticPropsContext) {
+  return {
+    props: {
+      messages: (await import(`../messages/${locale}.json`)).default,
+    },
+  };
+}
 
 export default Home;

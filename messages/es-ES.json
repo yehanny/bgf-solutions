@@ -1,0 +1,64 @@
+{
+  "PageLayout": {
+    "page_title": "BGF Solutions",
+    "description": "En BGF SOLUTIONS, C.A. nos dedicamos a la fabricación y distribución de productos químicos para la industria en general"
+  },
+  "Header": {
+    "home": "Inicio",
+    "about-us": "Nosotros",
+    "services": "Servicios",
+    "products": "Productos",
+    "contacts": "Contactos",
+    "LocaleSwitcher": {
+      "switchLocale": "{locale, select, es {ES} en {EN} other {Unknown}}"
+    }
+  },
+  "Hero": {
+    "title": "Somos BGF Solutions",
+    "subtitle": "Nos dedicamos a la fabricación y distribución de productos químicos para la industria en general",
+    "cta": "Obtener inforamción",
+    "cta_description": "Será asistido por nuestros representantes \na la brevedad posible"
+  },
+  "Typing": {
+    "text1": "industria petrolera",
+    "text2": "petroquímica",
+    "text3": "minería",
+    "text4": "industria en general"
+  },
+  "Contacts": {
+    "title": "Contactos",
+    "subtitle": "Sigamos en contacto, queremos saber de ti.",
+    "firstname": "Nombre",
+    "lastname": "Apellido",
+    "email": "Email",
+    "message": "Mensaje",
+    "message_text": "Deje su mensaje",
+    "send": "Enviar",
+    "errors": {
+      "lastname": "Apellido es requerido",
+      "email": "Formato email inválido (user@mail.com)",
+      "message": "Díganos como podemos ayudarle (Min: 30 char)"
+    },
+    "email_sent": "Email enviado..."
+  },
+  "Footer": {
+    "about_us": "Nosotros",
+    "clients": "Clientes",
+    "services": "Servicios",
+    "title": "BGF Solutions",
+    "contacts": "Contactos",
+    "products": "Productos",
+    "general": "General",
+    "insulators": "Insulators for oil and gas pipelines",
+    "refractory_line": "Línea refractaria",
+    "others": "Otros",
+    "email": "Email",
+    "phone": "Teléfono",
+    "address": "Dirección",
+    "resources": "Recursos",
+    "quality_policies": "Políticas de calidad",
+    "siaho": "Políticas SIAHO",
+    "brochure_download": "Descargar Brochure",
+    "rights": "Todos los derechos reservados"
+  }
+}

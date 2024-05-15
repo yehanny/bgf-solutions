@@ -2,25 +2,27 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import ContactForm from "./ContactForm";
+import { useTranslations } from "next-intl";
 
 export default function Header() {
+  const t = useTranslations("Header");
   const [navbarOpen, setNavbarOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const navItems = [
     {
-      name: "Nosotros",
+      name: t("about-us"),
       href: "#aboutus",
     },
     {
-      name: "Productos",
+      name: t("products"),
       href: "#products",
     },
     {
-      name: "Servicios",
+      name: t("services"),
       href: "#services",
     },
     {
-      name: "Contactos",
+      name: t("contacts"),
       href: "#contacts",
     },
   ];

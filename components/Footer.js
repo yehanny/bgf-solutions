@@ -1,4 +1,7 @@
+import { useTranslations } from "next-intl";
+
 export default function Footer() {
+  const t = useTranslations("Footer");
   return (
     <footer className="pt-16 pb-12 bg-gray-900 md:pt-20">
       <div className="mx-8 max-w-7xl md:mx-10 lg:mx-20 xl:mx-auto">
@@ -7,66 +10,66 @@ export default function Footer() {
             <ul className="space-y-1.5">
               <li className="mb-4 font-semibold text-white uppercase">BGF | Solutions</li>
               <li>
-                <a href="#aboutus">Nosotros</a>
+                <a href="#aboutus">{t("about_us")}</a>
               </li>
               <li>
-                <a href="#clients">Cientes</a>
+                <a href="#clients">{t("clients")}</a>
               </li>
               <li>
-                <a href="#services">Servicios</a>
+                <a href="#services">{t("services")}</a>
               </li>
               <li>
-                <a href="#contacts">Contactos</a>
-              </li>
-            </ul>
-            <ul className="space-y-1.5">
-              <li className="mb-4 font-semibold text-white uppercase">Productos</li>
-              <li>
-                <a href="#features">Generales</a>
-              </li>
-              <li>
-                <a href="#">Aisladores para oleoductos y gasoductos</a>
-              </li>
-              <li>
-                <a href="#">Línea Refractaria</a>
-              </li>
-              <li>
-                <a href="#">Otros</a>
+                <a href="#contacts">{t("contacts")}</a>
               </li>
             </ul>
             <ul className="space-y-1.5">
-              <li className="mb-4 font-semibold text-white uppercase">Contactos</li>
+              <li className="mb-4 font-semibold text-white uppercase">{t("products")}</li>
               <li>
-                <a href="#">Contáctenos</a>
+                <a href="#features">{t("general")}</a>
               </li>
               <li>
-                <a href="#">Email</a>
+                <a href="#">{t("insulators")}</a>
               </li>
               <li>
-                <a href="#">Teléfono</a>
+                <a href="#">{t("refractory_line")}</a>
               </li>
               <li>
-                <a href="#">Dirección</a>
+                <a href="#">{t("others")}</a>
               </li>
             </ul>
             <ul className="space-y-1.5">
-              <li className="mb-4 font-semibold text-white uppercase">Recursos</li>
+              <li className="mb-4 font-semibold text-white uppercase">{t("contacts")}</li>
               <li>
-                <a href="#">Póliticas de calidad</a>
+                <a href="#">{t("contacts")}</a>
               </li>
               <li>
-                <a href="#">Póliticas SIAHO</a>
+                <a href="#">{t("email")}</a>
               </li>
               <li>
-                <a href="#">Descargue Brochure</a>
+                <a href="#">{t("phone")}</a>
+              </li>
+              <li>
+                <a href="#">{t("address")}</a>
+              </li>
+            </ul>
+            <ul className="space-y-1.5">
+              <li className="mb-4 font-semibold text-white uppercase">{t("resources")}</li>
+              <li>
+                <a href="#">{t("quality_policies")}</a>
+              </li>
+              <li>
+                <a href="#">{t("siaho")}</a>
+              </li>
+              <li>
+                <a href="#">{t("brochure_download")}</a>
               </li>
             </ul>
           </div>
         </div>
         <p className="-mt-8 mb-12 text-center text-gray-300">
-          Todos los derechos reservados &copy; 2024 |
-          <a href="https://bgf-solutions.com/?utm_source=website" className="ml-2 underline">
-            bgf-solutions.com
+          {t("rights")} &copy; 2024 |
+          <a href="https://bgfsolutions.com/?utm_source=website" className="ml-2 underline">
+            bgfsolutions.com
           </a>
         </p>
       </div>
