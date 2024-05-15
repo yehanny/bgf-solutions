@@ -41,6 +41,21 @@
     },
     "email_sent": "Email was sent..."
   },
+  "Clients": {
+    "title": "Clients that trust in Us"
+  },
+  "Services": {
+    "title": "Our services",
+    "subtitle": "Some of our services.",
+    "text": "Our qualified professionals are ready to help you with your needs.",
+    "services": {
+      "service1": "Drilling, well rehabilitation and completion fluids",
+      "service2": "Drinking and waste water treatment",
+      "service3": "Boiler water treatment",
+      "service4": "Chemical crude oil treatment for the refining and production area",
+      "service5": "Service and monitoring for H2S and CO2 gas sweetening treatment"
+    }
+  },
   "Footer": {
     "about_us": "About",
     "clients": "Clients",
@@ -59,6 +74,7 @@
     "quality_policies": "Quality Policies",
     "siaho": "SIAHO Policies",
     "brochure_download": "Download Brochure",
-    "rights": "All rights reserved"
+    "rights": "All rights reserved",
+    "language": "Language:"
   }
 }

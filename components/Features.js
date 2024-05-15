@@ -1,7 +1,9 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Slider from "react-slick";
 
 export default function Features() {
+  const t = useTranslations("Services");
   const settings = {
     dots: false,
     infinite: true,
@@ -44,28 +46,28 @@ export default function Features() {
   };
   const features = [
     {
-      title: "Fluidos de perforación, rehabilitación y completación de pozos",
-      alt: "Fluidos de perforación, rehabilitación y completación de pozos",
+      title: t("services.service1"),
+      alt: t("services.service1"),
       image: "https://tecnoquim.com.ve/img/media/services-rehab.jpg",
     },
     {
-      title: "Tratamiento de agua potable y residual",
-      alt: "Tratamiento de agua potable y residual",
+      title: t("services.service2"),
+      alt: t("services.service2"),
       image: "https://tecnoquim.com.ve/img/media/services-water.jpg",
     },
     {
-      title: "Tratamiento de agua para calderas",
-      alt: "Tratamiento de agua para calderas",
+      title: t("services.service3"),
+      alt: t("services.service3"),
       image: "https://tecnoquim.com.ve/img/media/services-heat-water.jpg",
     },
     {
-      title: "Tratamiento químico de crudo para el área de refinación y producción",
-      alt: "Tratamiento químico de crudo para el área de refinación y producción",
+      title: t("services.service4"),
+      alt: t("services.service4"),
       image: "https://tecnoquim.com.ve/img/media/services-oil.jpg",
     },
     {
-      title: "Servicio y monitoreo para tratamiento de endulzamiento de gas H2S y CO2",
-      alt: "Servicio y monitoreo para tratamiento de endulzamiento de gas H2S y CO2",
+      title: t("services.service5"),
+      alt: t("services.service5"),
       image: "https://tecnoquim.com.ve/img/media/endulzamiento-gas.jpg",
     },
   ];
@@ -75,11 +77,9 @@ export default function Features() {
         <div className="space-y-16 md:space-y-24">
           <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
             <div className="space-y-5 md:text-center">
-              <h2 className="inline-block rounded-lg bg-green-800 bg-opacity-60 px-5 py-4 text-lg font-semibold text-indigo-100 hover:cursor-pointer hover:bg-opacity-40">Nuestros Servicios</h2>
-              <div className="text-3xl font-semibold text-gray-100 md:text-5xl">Algunos de nuestros servicios.</div>
-              <p className="text-xl text-gray-200 md:text-2xl">
-                Nuestro personal altamente capacitado podrá ayudarle en <span className="font-semibold">cualquiera</span> de sus requerimientos.
-              </p>
+              <h2 className="inline-block rounded-lg bg-green-800 bg-opacity-60 px-5 py-4 text-lg font-semibold text-indigo-100 hover:cursor-pointer hover:bg-opacity-40">{t("title")}</h2>
+              <div className="text-3xl font-semibold text-gray-100 md:text-5xl">{t("subtitle")}</div>
+              <p className="text-xl text-gray-200 md:text-2xl">{t("text")}</p>
             </div>
           </div>
           <Slider {...settings}>

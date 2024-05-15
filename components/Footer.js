@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import LocaleSwitcher from "./LocaleSwitcher";
 
 export default function Footer() {
   const t = useTranslations("Footer");
@@ -68,9 +69,10 @@ export default function Footer() {
         </div>
         <p className="-mt-8 mb-12 text-center text-gray-300">
           {t("rights")} &copy; 2024 |
-          <a href="https://bgfsolutions.com/?utm_source=website" className="ml-2 underline">
+          <a href="https://bgfsolutions.com/?utm_source=website" className="ml-2 mr-3 underline">
             bgfsolutions.com
           </a>
+          | {t("language")} <LocaleSwitcher className="ml-5" />
         </p>
       </div>
     </footer>

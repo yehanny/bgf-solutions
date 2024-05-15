@@ -1,8 +1,10 @@
 import React from "react";
 import Link from "next/link";
 import Slider from "react-slick";
+import { useTranslations } from "next-intl";
 
 const Clients = () => {
+  const t = useTranslations("Clients");
   const settings = {
     dots: false,
     infinite: true,
@@ -99,7 +101,7 @@ const Clients = () => {
   return (
     <section className="bg-blue-100">
       <div className="space-y-6 text-center py-32">
-        <h2 className="text-lg font-semibold tracking-wide text-center text-opacity-75 uppercase md:mx-10 text-gray-600">Algunos de nuestros clientes</h2>
+        <h2 className="text-lg font-semibold tracking-wide text-center text-opacity-75 uppercase md:mx-10 text-gray-600">{t("title")}</h2>
         <div className="w-full h-auto md:mx-auto md:w-3/4 p-3 bg-white rounded-2xl border border-gray-300 md:bg-opacity-100 md:p-10">
           <div className="">
             <Slider {...settings}>

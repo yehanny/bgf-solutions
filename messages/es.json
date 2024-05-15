@@ -16,7 +16,7 @@
   "Hero": {
     "title": "Somos BGF Solutions",
     "subtitle": "Nos dedicamos a la fabricación y distribución de productos químicos para",
-    "cta": "Obtener inforamción",
+    "cta": "Obtener información",
     "cta_description": "Será asistido por nuestros representantes \na la brevedad posible"
   },
   "Typing": {
@@ -41,6 +41,21 @@
     },
     "email_sent": "Email enviado..."
   },
+  "Clients": {
+    "title": "Clientes que confían en nosotros"
+  },
+  "Services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Algunos de nuestros servicios.",
+    "text": "Nuestro personal altamente capacitado podrá ayudarle en cualquiera de sus requerimientos.",
+    "services": {
+      "service1": "Fluidos de perforación, rehabilitación y completación de pozos",
+      "service2": "Tratamiento de agua potable y residual",
+      "service3": "Tratamiento de agua para calderas",
+      "service4": "Tratamiento químico de crudo para el área de refinación y producción",
+      "service5": "Servicio y monitoreo para tratamiento de endulzamiento de gas H2S y CO2"
+    }
+  },
   "Footer": {
     "about_us": "Nosotros",
     "clients": "Clientes",
@@ -59,6 +74,7 @@
     "quality_policies": "Políticas de calidad",
     "siaho": "Políticas SIAHO",
     "brochure_download": "Descargar Brochure",
-    "rights": "Todos los derechos reservados"
+    "rights": "Todos los derechos reservados",
+    "language": "Idioma:"
   }
 }
