@@ -22,7 +22,7 @@ const Home: NextPage = () => {
         <meta property="og:url" content="bgfsolutions.com" />
         <meta property="og:description" content={t("description")} />
         <meta property="og:title" content={t("page_title")} />
-        <meta property="og:image" content={t("/Landing.jpg")} />
+        <meta property="og:image" content={"/Landing.jpg"} />
         <link rel="shortcut icon" href="/favicon.png" />
         <link rel="stylesheet" type="text/css" charSet="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />

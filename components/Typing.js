@@ -13,27 +13,21 @@ const Typing = ({ words }) => {
   const typedRef = useRef(null);
 
   useEffect(() => {
-    const options = {
+    const typed = new Typed(typedRef.current, {
       strings: words,
       typeSpeed: 65,
       backSpeed: 65,
       loop: true,
       showCursor: true,
       cursorChar: "|",
-    };
-
-    typedRef.current = new Typed(typedRef.current, options);
+    });
 
     return () => {
-      typedRef.current.destroy();
+      typed.destroy();
     };
-  }, [words]);
+  }, []);
 
-  return (
-    <>
-      <span ref={typedRef} style={{ whiteSpace: "pre" }} />
-    </>
-  );
+  return <span ref={typedRef} />;
 };
 
 export default Typing;

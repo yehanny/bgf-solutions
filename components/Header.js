@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ContactForm from "./ContactForm";
 import { useTranslations } from "next-intl";
+import LocaleSwitcher from "./LocaleSwitcher";
 
 export default function Header() {
   const t = useTranslations("Header");
@@ -51,6 +52,9 @@ export default function Header() {
                   </Link>
                 </li>
               ))}
+              <li>
+                <LocaleSwitcher />
+              </li>
               <li>
                 <ContactForm isOpen={isOpen} setIsOpen={setIsOpen} />
               </li>
