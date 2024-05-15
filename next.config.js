@@ -17,4 +17,13 @@ module.exports = {
     locales: ["en", "es"],
     defaultLocale: "es",
   },
+  experimental: {
+    runtime: "edge",
+    // This enables the Edge Runtime for all API routes
+    // and pages that don't have a runtime defined
+    // in their individual files.
+    routeRules: {
+      "/_next/data/**": { runtime: "edge" },
+    },
+  },
 };
