@@ -72,7 +72,7 @@ export default function Features() {
     },
   ];
   return (
-    <section id="features" className="py-20 bg-gradient-to-t to-blue-950 from-green-800">
+    <section id="services" className="py-32 bg-gradient-to-t to-blue-950 from-green-800">
       <div className="mx-8 max-w-7xl md:mx-10 lg:mx-20 xl:mx-auto">
         <div className="space-y-16 md:space-y-24">
           <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">

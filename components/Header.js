@@ -11,6 +11,10 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const navItems = [
     {
+      name: t("home"),
+      href: "#home",
+    },
+    {
       name: t("about-us"),
       href: "#aboutus",
     },
@@ -21,10 +25,6 @@ export default function Header() {
     {
       name: t("services"),
       href: "#services",
-    },
-    {
-      name: t("contacts"),
-      href: "#contacts",
     },
   ];
   return (
