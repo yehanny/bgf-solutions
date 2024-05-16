@@ -12,19 +12,19 @@ export default function Header() {
   const navItems = [
     {
       name: t("home"),
-      href: "#home",
+      href: "/",
     },
     {
       name: t("about-us"),
-      href: "#aboutus",
+      href: "/aboutus",
     },
     {
       name: t("products"),
-      href: "#products",
+      href: "/products",
     },
     {
       name: t("services"),
-      href: "#services",
+      href: "/#services",
     },
   ];
   return (

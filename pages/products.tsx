@@ -1,19 +1,11 @@
 import React from "react";
-import type { NextPage } from "next";
 import PageLayout from "../components/PageLayout";
 import { GetStaticPropsContext } from "next";
-import Splash from "../components/Splash";
-import Landing from "../components/Landing";
-import Clients from "../components/Clients";
-import Features from "../components/Features";
 
-const Home: NextPage = () => {
+const Products = () => {
   return (
     <PageLayout>
-      <Splash />
-      <Landing />
-      <Clients />
-      <Features />
+      <h1>Product Page</h1>
     </PageLayout>
   );
 };
@@ -26,4 +18,4 @@ export async function getStaticProps({ locale }: GetStaticPropsContext) {
   };
 }
 
-export default Home;
+export default Products;
