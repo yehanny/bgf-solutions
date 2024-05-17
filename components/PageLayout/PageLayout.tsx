@@ -5,6 +5,7 @@ import Header from "../Header";
 import Footer from "../Footer";
 import { GetStaticPropsContext } from "next";
 import { useTranslations } from "next-intl";
+import useGetUri from "../../hooks/useGetUri";
 
 interface Props {
   children?: ReactNode;
@@ -21,14 +22,12 @@ interface Props {
 }
 
 const PageLayout: NextPage<Props> = ({ children, props }) => {
-  const t = useTranslations("PageLayout");
-  const uri = typeof window !== "undefined" ? window.location.pathname : "";
-
+  const t = useTranslations("Home");
   return (
     <>
       <Head>
         <title>{t("page_title")}</title>
-        <meta property="og:url" content={uri} />
+        <meta property="og:url" content={useGetUri()} />
         <meta property="og:description" content={t("description")} />
         <meta property="og:title" content={t("page_title")} />
         <meta property="og:image" content={props?.og_image ?? "/Landing.jpg"} />

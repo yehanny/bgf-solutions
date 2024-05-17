@@ -1,5 +1,5 @@
 {
-  "PageLayout": {
+  "Home": {
     "page_title": "BGF Solutions",
     "description": "At BGF SOLUTIONS, C.A. We are dedicated to the manufacture and distribution of chemical products for the industry in general.",
     "keywords": "oil industry, petrochemical, mining, general industry, distribution, chemicals, drilling fluids, rehabilitation, well completion, drinking water treatment, waste water treatment, boiler water treatment, chemical treatment of crude oil for the area of refining, service and monitoring for H2S and CO2 gas sweetening treatment, mixing plant"
@@ -55,6 +55,14 @@
       "service3": "Boiler water treatment",
       "service4": "Chemical crude oil treatment for the refining and production area",
       "service5": "Service and monitoring for H2S and CO2 gas sweetening treatment"
+    }
+  },
+  "Products": {
+    "title": "Our products",
+    "subtitle": "Some of our products.",
+    "products": {
+      "product1": "Refractory Line",
+      "product2": "Insulators for oil and gas pipelines"
     }
   },
   "Footer": {
