@@ -57,6 +57,14 @@
       "service5": "Servicio y monitoreo para tratamiento de endulzamiento de gas H2S y CO2"
     }
   },
+  "Products": {
+    "title": "Nuestros Productos",
+    "subtitle": "Algunos de nuestros productos.",
+    "products": {
+      "product1": "Refractory Line",
+      "product2": "Insulators for oil and gas pipelines"
+    }
+  },
   "Footer": {
     "about_us": "Nosotros",
     "clients": "Clientes",
