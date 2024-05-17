@@ -60,6 +60,8 @@
   "Products": {
     "title": "Nuestros Productos",
     "subtitle": "Algunos de nuestros productos.",
+    "description": "",
+    "keywords": "",
     "products": {
       "product1": "Refractory Line",
       "product2": "Insulators for oil and gas pipelines"

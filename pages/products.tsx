@@ -10,12 +10,12 @@ const Products = () => {
   const productProps = {
     og_url: useGetUri(),
     og_description: t("description"),
-    og_title: t("page_title"),
+    og_title: t("title"),
     og_image: "/Landing.jpg",
     og_site_name: "BGF Solutions",
-    keywords: t("keywords"),
+    keywords: t("keywords") ?? "",
     author: "BGF Solutions",
-    description: t("description"),
+    description: t("description") ?? "",
   };
   return (
     <PageLayout props={productProps}>
