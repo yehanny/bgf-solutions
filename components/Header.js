@@ -29,8 +29,8 @@ export default function Header() {
   ];
   return (
     <header>
-      <div className="flex flex-col px-4 pt-4 mx-auto text-black roboto-regular max-w-7xl md:mx-10 lg:mx-20 xl:mx-auto md:flex-row md:items-center md:justify-between">
-        <div className="flex flex-row items-center justify-between p-4">
+      <div className="flex flex-col pt-4 mx-auto text-black roboto-regular max-w-7xl md:mx-10 lg:mx-20 xl:mx-auto md:flex-row md:items-center md:justify-between">
+        <div className="flex flex-row items-center justify-between">
           <Link href="/" className="text-4xl font-semibold tracking-tight text-transparent bg-clip-text md:text-gray-900">
             <img src="/images/bfg-solutions-logo.png" width={200} height={80} alt="BGF Solutions Logo" fetchpriority="high" />
           </Link>

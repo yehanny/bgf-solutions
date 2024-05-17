@@ -1,11 +1,14 @@
 import React from "react";
-import PageLayout from "../components/PageLayout";
+import PageLayout from "../components/PageLayout/PageLayout";
 import { GetStaticPropsContext } from "next";
+import InnerBody from "../components/PageLayout/InnerBody";
 
 const Products = () => {
   return (
     <PageLayout>
-      <h1>Product Page</h1>
+      <InnerBody>
+        <h1>Product Page</h1>
+      </InnerBody>
     </PageLayout>
   );
 };
