@@ -60,11 +60,103 @@
   "Products": {
     "title": "Our products",
     "subtitle": "Some of our products.",
-    "description": "",
-    "keywords": "",
+    "description": "Here you can find a list of all products we have to offer in General, Insulators for Oil and Gas Pipelines, Refactory Line and Other Lines",
+    "keywords": "General, Insulators for Oil and Gas Pipelines, Refactory Line, Other Lines",
+    "image": "",
     "products": {
-      "product1": "Refractory Line",
-      "product2": "Insulators for oil and gas pipelines"
+      "General": {
+        "length": "51",
+        "list": {
+          "item1": "Acetic acid",
+          "item2": "Aluminum sulfate",
+          "item3": "Ammonium chloride",
+          "item4": "Barite",
+          "item5": "Basic and formulated amines (MEA, DEA, MDEA, DIPA, A-MDEA)",
+          "item6": "Bentonite",
+          "item7": "Biocides",
+          "item8": "Biodegradable degreaser",
+          "item9": "Biodegradable Detergent",
+          "item10": "Butyl Oxitol",
+          "item11": "Calcium chloride",
+          "item12": "Caustic potash",
+          "item13": "Caustic soda",
+          "item14": "Citric acid",
+          "item15": "Coagulant",
+          "item16": "Corrosion inhibidors",
+          "item17": "Deflocculants",
+          "item18": "Defoamer",
+          "item19": "Demulsifiers",
+          "item20": "Emulsifier",
+          "item21": "Equipos de control de sólidos",
+          "item22": "Fibers",
+          "item23": "Flocculants",
+          "item24": "Formic acid",
+          "item25": "Gilsonite",
+          "item26": "Glycerin",
+          "item27": "Glycols",
+          "item28": "HEC liquids and solids",
+          "item29": "Isopropyl alcohol",
+          "item30": "Laboratory Equipment and Reagents",
+          "item31": "Lignite",
+          "item32": "Lignite organophilic",
+          "item33": "Loss of circulation materials",
+          "item34": "Lubricants",
+          "item35": "Magnesium oxide",
+          "item36": "Moisturizers",
+          "item37": "Oil based polymers",
+          "item38": "Organophilic clay",
+          "item39": "Oxygen scavengers",
+          "item40": "PAC HV / LV (Polyanionic Cellulose)",
+          "item41": "Polar activators",
+          "item42": "Potassium acetate",
+          "item43": "Potassium chloride",
+          "item44": "Products for H2S and CO2 gas sweetening treatment",
+          "item45": "Sodium chloride",
+          "item46": "Sodium hypochlorite",
+          "item47": "Sodium silicate",
+          "item48": "Viscosifiers",
+          "item49": "Water based polymers",
+          "item50": "Xanthic gum",
+          "item51": "Xylene"
+        }
+      },
+      "Insulators for Oil and Gas Pipelines": {
+        "length": "4",
+        "list": {
+          "item1": "Coatings for aqueducts, gas pipelines and tanks",
+          "item2": "Epoxies",
+          "item3": "Polyurethanes",
+          "item4": "Resins"
+        }
+      },
+      "Refactory Line": {
+        "length": "6",
+        "list": {
+          "item1": "Fibers",
+          "item2": "Insulating bricks",
+          "item3": "Insulating concretes",
+          "item4": "Refractory blanket",
+          "item5": "Refractory bricks",
+          "item6": "Refractory concretes"
+        }
+      },
+      "Other Lines": {
+        "length": "12",
+        "list": {
+          "item1": "Amine purification equipment and systems and waste and industrial water treatments",
+          "item2": "Antifreeze",
+          "item3": "Chemical products for stimulation",
+          "item4": "Chemicals for crude oil treatment",
+          "item5": "Chemicals for production",
+          "item6": "Chemicals for the treatment of waste and drinking water",
+          "item7": "Crude oil flow improvers",
+          "item8": "Fire fighting equipment and systems (powders and foams)",
+          "item9": "Lubricants and greases for machinery and equipment",
+          "item10": "Refinery chemicals",
+          "item11": "Refrigerants",
+          "item12": "Water treatment systems"
+        }
+      }
     }
   },
   "Footer": {
