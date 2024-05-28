@@ -64,7 +64,8 @@
     "keywords": "General, Insulators for Oil and Gas Pipelines, Refactory Line, Other Lines",
     "image": "",
     "products": {
-      "General": {
+      "product1": {
+        "title": "General",
         "length": "51",
         "list": {
           "item1": "Acetic acid",
@@ -120,7 +121,8 @@
           "item51": "Xylene"
         }
       },
-      "Insulators for Oil and Gas Pipelines": {
+      "product2": {
+        "title": "Insulators for Oil and Gas Pipelines",
         "length": "4",
         "list": {
           "item1": "Coatings for aqueducts, gas pipelines and tanks",
@@ -129,7 +131,8 @@
           "item4": "Resins"
         }
       },
-      "Refactory Line": {
+      "product3": {
+        "title": "Refactory Line",
         "length": "6",
         "list": {
           "item1": "Fibers",
@@ -140,7 +143,8 @@
           "item6": "Refractory concretes"
         }
       },
-      "Other Lines": {
+      "product4": {
+        "title": "Other Lines",
         "length": "12",
         "list": {
           "item1": "Amine purification equipment and systems and waste and industrial water treatments",

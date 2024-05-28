@@ -60,11 +60,107 @@
   "Products": {
     "title": "Nuestros Productos",
     "subtitle": "Algunos de nuestros productos.",
-    "description": "",
-    "keywords": "",
+    "description": "Aquí podrá encontrar una lista de todos los productos que tenemos para ofrecer en General, Aisladores para Oleoductos y Gasoductos, Línea de Refactoría y Otras Líneas",
+    "keywords": "General, Aisladores para Oleoductos y Gasoductos, Línea de Refactorización, Otras Líneas",
+    "image": "",
     "products": {
-      "product1": "Refractory Line",
-      "product2": "Insulators for oil and gas pipelines"
+      "product1": {
+        "title": "General",
+        "length": "51",
+        "list": {
+          "item1": "Ácido acético",
+          "item2": "Sulfato de aluminio",
+          "item3": "Cloruro de amonio",
+          "item4": "Barita",
+          "item5": "Aminas básicas y formuladas (MEA, DEA, MDEA, DIPA, A-MDEA)",
+          "item6": "Bentonita",
+          "item7": "Biocidas",
+          "item8": "Desengrasante biodegradable",
+          "item9": "Detergente biodegradable",
+          "item10": "Butil oxitol",
+          "item11": "Cloruro de calcio",
+          "item12": "Potasa cáustica",
+          "item13": "Sosa cáustica",
+          "item14": "Ácido cítrico",
+          "item15": "Coagulante",
+          "item16": "Inhibidores de corrosión",
+          "item17": "Desfloculantes",
+          "item18": "Antiespumante",
+          "item19": "Desemulsionantes",
+          "item20": "Emulsionante",
+          "item21": "Equipos de control de sólidos",
+          "item22": "Fibras",
+          "item23": "Floculantes",
+          "item24": "Ácido fórmico",
+          "item25": "Gilsonita",
+          "item26": "Glicerina",
+          "item27": "Glicoles",
+          "item28": "Líquidos y sólidos HEC",
+          "item29": "Alcohol isopropílico",
+          "item30": "Equipo y reactivos de laboratorio",
+          "item31": "Lignito",
+          "item32": "Lignito organofílico",
+          "item33": "Pérdida de materiales de circulación",
+          "item34": "Lubricantes",
+          "item35": "Óxido de magnesio",
+          "item36": "Hidratantes",
+          "item37": "Polímeros a base de aceite",
+          "item38": "Arcilla organófila",
+          "item39": "Recuperadores de oxígeno",
+          "item40": "PAC HV/LV (celulosa polianiónica)",
+          "item41": "Activadores polares",
+          "item42": "Acetato de potasio",
+          "item43": "Cloruro de potasio",
+          "item44": "Productos para el tratamiento de edulcorante de gases H2S y CO2",
+          "item45": "Cloruro de sodio",
+          "item46": "Hipoclorito de sodio",
+          "item47": "Silicato de sodio",
+          "item48": "Viscosificadores",
+          "item49": "Polímeros a base de agua",
+          "item50": "Goma xántica",
+          "item51": "Xileno"
+        }
+      },
+      "product2": {
+        "title": "Aisladores para Oleoductos y Gasoductos",
+        "length": "4",
+        "list": {
+          "item1": "Recubrimientos para acueductos, gasoductos y tanques",
+          "item2": "Epóxicos",
+          "item3": "Poliuretanos",
+          "item4": "Resinas"
+        }
+      },
+      "product3": {
+        "title": "Línea de Refactorización",
+        "length": "6",
+        "list": {
+          "item1": "Fibras",
+          "item2": "Ladrillos aislantes",
+          "item3": "hormigones aislantes",
+          "item4": "Manta refractaria",
+          "item5": "Ladrillos refractarios",
+          "item6": "hormigones refractarios"
+        }
+      },
+      "product4": {
+        "title": "Otras Líneas",
+        "length": "12",
+        "list": {
+          "item1": "Equipos y sistemas de purificación de aminas y tratamientos de aguas residuales e industriales",
+          "item2": "Anticongelante",
+          "item3": "Productos químicos para estimulación",
+          "item4": "Productos químicos para el tratamiento del petróleo crudo",
+          "item5": "Productos químicos para la producción",
+          "item6": "Productos químicos para el tratamiento de aguas residuales y potables",
+          "item7": "Mejoradores del flujo de petróleo crudo",
+          "item8": "Equipos y sistemas contra incendios (polvos y espumas)",
+          "item9": "Lubricantes y grasas para maquinaria y equipos",
+          "item10": "Productos químicos de refinería",
+          "item11": "Refrigerantes",
+          "item12": "Sistemas de tratamiento de agua"
+        }
+      }
     }
   },
   "Footer": {
