@@ -11,5 +11,7 @@ export default interface Props {
     keywords?: string;
     author?: string;
     description?: string;
+    top_image?: string;
+    top_title?: string;
   };
 }

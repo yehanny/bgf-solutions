@@ -44,7 +44,7 @@ export default function Header() {
         </div>
         <div className={"mt-3 flex-grow items-start md:flex lg:mt-0" + (navbarOpen ? " flex" : " hidden")}>
           <div className="flex-col pl-4 text-xl w-full md:flex-grow md:pl-0">
-            <ul className="flex flex-col flex-nowrap w-full md:flex-wrap md:flex-row md:items-center md:justify-end flex-grow gap-2 pr-4 space-x-2 md:gap-6 md:space-x-6">
+            <ul className="flex flex-col flex-nowrap w-full md:flex-wrap md:flex-row md:items-center md:justify-end flex-grow gap-2 space-x-2 md:gap-6 md:space-x-6">
               {navItems.map((item, index) => (
                 <li key={index}>
                   <Link href={item.href} className="text-lg md:text-blue-950 hover:text-gray-300 md:hover:text-gray-700">

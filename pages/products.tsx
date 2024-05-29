@@ -8,6 +8,7 @@ import AccordionItem from "../components/AccordionItem";
 import { Accordion } from "@szhsin/react-accordion";
 import openGraphProps from "../types/openGraphProps";
 import productListItemsProps from "../types/productListItemsProps";
+import TopHeaderBanner from "../components/TopHeader";
 
 const Products = () => {
   const t = useTranslations("Products");
@@ -54,7 +55,11 @@ const Products = () => {
   return (
     <PageLayout {...productProps}>
       <InnerBody>
-        <h1>{t("title")}</h1>
+        <TopHeaderBanner image="/images/products-topbanner.jpg" title={t("title")} />
+        <div className="my-10">
+          <p>{t("description")}</p>
+        </div>
+        <hr />
         <Accordion>
           {productList.map((product, index) => (
             <AccordionItem key={index} header={t(`products.${product}.title`)}>
