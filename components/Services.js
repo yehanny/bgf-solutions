@@ -2,7 +2,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Slider from "react-slick";
 
-export default function Features() {
+export default function Services() {
   const t = useTranslations("Services");
   const settings = {
     dots: false,
@@ -44,7 +44,7 @@ export default function Features() {
       },
     ],
   };
-  const features = [
+  const services = [
     {
       title: t("services.service1"),
       alt: t("services.service1"),
@@ -63,12 +63,12 @@ export default function Features() {
     {
       title: t("services.service4"),
       alt: t("services.service4"),
-      image: "https://tecnoquim.com.ve/img/media/services-oil.jpg",
+      image: "/images/crude-oil-treatment.jpg",
     },
     {
       title: t("services.service5"),
       alt: t("services.service5"),
-      image: "https://tecnoquim.com.ve/img/media/endulzamiento-gas.jpg",
+      image: "/images/gas-sweetening.jpg",
     },
   ];
   return (
@@ -83,7 +83,7 @@ export default function Features() {
             </div>
           </div>
           <Slider {...settings}>
-            {features.map((feature, index) => (
+            {services.map((feature, index) => (
               <div key={index} className="p-5 bg-white bg-opacity-20 rounded-xl card-hover space-y-5 min-h-[250px] md:min-h-[280px] lg:min-h-[350px] min-w-[120px]">
                 <img src={feature.image} alt={feature.alt} width={200} height={200} className="w-full object-cover rounded-lg transition-all ease-in-out" />
                 <h3 className="text-sm md:text-lg lg:text-xl font-semibold text-white">{feature.title}</h3>

@@ -55,6 +55,10 @@
       "service3": "Tratamiento de agua para calderas",
       "service4": "Tratamiento químico de crudo para el área de refinación y producción",
       "service5": "Servicio y monitoreo para tratamiento de endulzamiento de gas H2S y CO2"
+    },
+    "mixin_plant": {
+      "title": "Contamos con Planta de Mezclado en nuestras instalaciones",
+      "description": "Tenemos en nuestro almacén de Occidente una planta de mezclado para producto final con capacidad de 10.000 Lts"
     }
   },
   "Products": {

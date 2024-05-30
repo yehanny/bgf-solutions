@@ -48,6 +48,7 @@
   "Services": {
     "title": "Our services",
     "subtitle": "Some of our services.",
+    "keywords": "",
     "text": "Our qualified professionals are ready to help you with your needs.",
     "services": {
       "service1": "Drilling, well rehabilitation and completion fluids",
@@ -55,6 +56,10 @@
       "service3": "Boiler water treatment",
       "service4": "Chemical crude oil treatment for the refining and production area",
       "service5": "Service and monitoring for H2S and CO2 gas sweetening treatment"
+    },
+    "mixin_plant": {
+      "title": "We have a Mixing Plant in our facilities",
+      "description": "We have in our Western warehouse a mixing plant for final product with a capacity of 10,000 Lts."
     }
   },
   "Products": {

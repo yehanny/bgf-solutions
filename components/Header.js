@@ -24,7 +24,7 @@ export default function Header() {
     },
     {
       name: t("services"),
-      href: "/#services",
+      href: "/services",
     },
   ];
   return (

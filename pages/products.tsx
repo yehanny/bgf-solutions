@@ -55,7 +55,7 @@ const Products = () => {
   return (
     <PageLayout {...productProps}>
       <InnerBody>
-        <TopHeaderBanner image="/images/products-topbanner.jpg" title={t("title")} />
+        <TopHeaderBanner image="/images/products-topbanner.jpg" title={t("title")} subtitle={t("subtitle")} />
         <div className="my-10">
           <p>{t("description")}</p>
         </div>
