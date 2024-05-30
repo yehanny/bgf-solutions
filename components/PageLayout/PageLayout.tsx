@@ -7,12 +7,9 @@ import { GetStaticPropsContext } from "next";
 import { useTranslations } from "next-intl";
 import useGetUri from "../../hooks/useGetUri";
 import openGraphProps from "../../types/openGraphProps";
-import TopHeaderBanner from "../TopHeader";
 
 const PageLayout: NextPage<openGraphProps> = ({ children, props }) => {
   const t = useTranslations("Home");
-  const topImage = props?.top_image ?? "";
-  const topTitle = props?.og_title ?? "";
   return (
     <>
       <Head>

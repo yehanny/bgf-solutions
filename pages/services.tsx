@@ -57,7 +57,7 @@ const Services = () => {
       <InnerBody>
         <TopHeaderBanner image="/images/services-topbanner.jpg" title={t("title")} subtitle={t("subtitle")} />
         <div className="my-10">
-          <p>{t("text")}</p>
+          <p>{t("description")}</p>
         </div>
         <div className="flex flex-wrap justify-between gap-5">
           {services.map((feature, index) => (

@@ -48,7 +48,8 @@
   "Services": {
     "title": "Nuestros Servicios",
     "subtitle": "Algunos de nuestros servicios.",
-    "text": "Nuestro personal altamente capacitado podrá ayudarle en cualquiera de sus requerimientos.",
+    "description": "Aquí podrá encontrar una lista de todos los servicios que tenemos para ofrecer en General, Aisladores para Oleoductos y Gasoductos, Línea de Refactoría y Otras Líneas",
+    "keywords": "General, Aisladores para Oleoductos y Gasoductos, Línea de Refactorización, Otras Líneas",
     "services": {
       "service1": "Fluidos de perforación, rehabilitación y completación de pozos",
       "service2": "Tratamiento de agua potable y residual",
