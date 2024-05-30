@@ -59,7 +59,7 @@ const Services = () => {
         <div className="my-10">
           <p>{t("description")}</p>
         </div>
-        <div className="flex flex-wrap justify-between gap-5">
+        <div className="flex flex-wrap justify-between gap-3">
           {services.map((feature, index) => (
             <div key={index} className="p-5 bg-gray-400 bg-opacity-20 rounded-xl card-hover space-y-5 w-full md:w-[49%]">
               <img src={feature.image} alt={feature.alt} width={400} height={300} className="w-full object-cover rounded-lg transition-all ease-in-out" />
