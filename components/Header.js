@@ -16,7 +16,7 @@ export default function Header() {
     },
     {
       name: t("about-us"),
-      href: "/aboutus",
+      href: "/about-us",
     },
     {
       name: t("products"),

@@ -48,17 +48,17 @@ export default function Services() {
     {
       title: t("services.service1"),
       alt: t("services.service1"),
-      image: "https://tecnoquim.com.ve/img/media/services-rehab.jpg",
+      image: "/images/drilling.jpg",
     },
     {
       title: t("services.service2"),
       alt: t("services.service2"),
-      image: "https://tecnoquim.com.ve/img/media/services-water.jpg",
+      image: "/images/water-treatment.jpg",
     },
     {
       title: t("services.service3"),
       alt: t("services.service3"),
-      image: "https://tecnoquim.com.ve/img/media/services-heat-water.jpg",
+      image: "/images/boiler-treatment.jpg",
     },
     {
       title: t("services.service4"),

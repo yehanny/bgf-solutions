@@ -48,7 +48,7 @@
   "Services": {
     "title": "Our services",
     "subtitle": "Some of our services.",
-    "keywords": "",
+    "keywords": "General, Insulators for Oil and Gas Pipelines, Refactory Line, Other Lines",
     "text": "Our qualified professionals are ready to help you with your needs.",
     "services": {
       "service1": "Drilling, well rehabilitation and completion fluids",
@@ -166,6 +166,25 @@
           "item12": "Water treatment systems"
         }
       }
+    }
+  },
+  "AboutUs": {
+    "title": "About Us",
+    "subtitle": "We are BGF Solutions",
+    "description": "At BGF SOLUCIONES, C.A. We are dedicated to the manufacture and distribution of chemical products for the industry in general, seeking to simplify the tasks of our clients, as well as minimize the environmental impact they may have on their industrial processes, the protection of their human resources and neighboring communities.",
+    "keywords": "oil industry, petrochemical, mining, general industry, distribution, chemicals, drilling fluids, rehabilitation, well completion, drinking water treatment, waste water treatment, boiler water treatment, chemical treatment of crude oil for the area of refining, service and monitoring for H2S and CO2 gas sweetening treatment, mixing plant",
+    "image": "",
+    "inpeluz": {
+      "title": "Alianza con el Instituto de Investigaciones Petroleras de la Universidad del Zulia (Inpeluz)",
+      "description": "We have an alliance with INPELUZ, which is a certified public entity that has highly trained equipment and personnel, in charge of providing specialized technical services to the oil and petrochemical industry for water, crude oil and fluid tests, as well as specialized tests, corrosion tests and others."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "We assume the mission of distributing high quality chemicals, protecting the environment and society. We rely on an excellent human resource, ethical, responsible and committed to guarantee the satisfaction of the needs of our customers, in a timely manner, with the quality and safety required."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "Leading the national market in the supply of high quality chemicals for various uses in the oil, mining, manufacturing, metalworking and construction industries. In TECNOQUIM .CA, we are dedicated to the distribution and manufacture of chemical products for the oil industry, mining and industry in general, aimed at simplifying the task of our clients in the search to minimize the environmental impact on their industrial processes and the protection of its human resource and neighboring communities. We put our knowledge at the service of our customers and society."
     }
   },
   "Footer": {
