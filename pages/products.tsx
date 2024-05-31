@@ -8,7 +8,7 @@ import AccordionItem from "../components/AccordionItem";
 import { Accordion } from "@szhsin/react-accordion";
 import openGraphProps from "../types/openGraphProps";
 import productListItemsProps from "../types/productListItemsProps";
-import TopHeaderBanner from "../components/TopHeader";
+import TopHeaderBanner from "../components/PageLayout/TopHeader";
 
 const Products = () => {
   const t = useTranslations("Products");
@@ -55,7 +55,7 @@ const Products = () => {
   return (
     <PageLayout {...productProps}>
       <InnerBody>
-        <TopHeaderBanner image="/images/products-topbanner.jpg" title={t("title")} subtitle={t("subtitle")} />
+        <TopHeaderBanner image="/images/products-topbanner.webp" title={t("title")} subtitle={t("subtitle")} />
         <div className="my-10">
           <p>{t("description")}</p>
         </div>

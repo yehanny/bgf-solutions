@@ -5,7 +5,7 @@ import InnerBody from "../components/PageLayout/InnerBody";
 import { useTranslations } from "next-intl";
 import useGetUri from "../hooks/useGetUri";
 import openGraphProps from "../types/openGraphProps";
-import TopHeaderBanner from "../components/TopHeader";
+import TopHeaderBanner from "../components/PageLayout/TopHeader";
 import Image from "next/image";
 
 const AboutUs = () => {
@@ -27,7 +27,7 @@ const AboutUs = () => {
   return (
     <PageLayout {...servicesProps}>
       <InnerBody>
-        <TopHeaderBanner image="/images/about-us-topbanner.jpg" title={t("title")} subtitle={t("subtitle")} />
+        <TopHeaderBanner image="/images/about-us-topbanner.webp" title={t("title")} subtitle={t("subtitle")} />
         <div className="my-10">
           <p>{t("description")}</p>
         </div>
