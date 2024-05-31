@@ -28,7 +28,7 @@ export default function Header() {
     },
   ];
   return (
-    <header>
+    <header className="fixed top-0 left-0 right-0 z-50 bg-slate-50 pb-4 border-b-slate-300 border-b-[1px]">
       <div className="flex flex-col pt-4 mx-auto text-black roboto-regular max-w-7xl md:mx-10 lg:mx-20 xl:mx-auto md:flex-row md:items-center md:justify-between">
         <div className="flex flex-row items-center justify-between">
           <Link href="/" className="text-4xl font-semibold tracking-tight text-transparent bg-clip-text md:text-gray-900">

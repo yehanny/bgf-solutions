@@ -31,7 +31,7 @@ const PageLayout: NextPage<openGraphProps> = ({ children, props }) => {
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
       </Head>
       <Header />
-      {children}
+      <div className="pt-20">{children}</div>
       <Footer />
     </>
   );

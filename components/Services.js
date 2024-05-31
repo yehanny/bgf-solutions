@@ -79,7 +79,7 @@ export default function Services() {
             <div className="space-y-5 md:text-center">
               <h2 className="inline-block rounded-lg bg-green-800 bg-opacity-60 px-5 py-4 text-lg font-semibold text-indigo-100 hover:cursor-pointer hover:bg-opacity-40">{t("title")}</h2>
               <div className="text-3xl font-semibold text-gray-100 md:text-5xl">{t("subtitle")}</div>
-              <p className="text-xl text-gray-200 md:text-2xl">{t("text")}</p>
+              <p className="text-xl text-gray-200 md:text-2xl">{t("description")}</p>
             </div>
           </div>
           <Slider {...settings}>
