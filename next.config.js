@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
+const nextConfig = {
   reactStrictMode: true,
+  swcMinify: true,
   images: {
     remotePatterns: [
       {
@@ -18,12 +19,14 @@ module.exports = {
     defaultLocale: "es",
   },
   experimental: {
-    runtime: "edge",
+    runtime: "experimental-edge",
     // This enables the Edge Runtime for all API routes
     // and pages that don't have a runtime defined
     // in their individual files.
     routeRules: {
-      "/_next/data/**": { runtime: "edge" },
+      "/_next/data/**": { runtime: "experimental-edge" },
     },
   },
 };
+
+module.exports = nextConfig;
