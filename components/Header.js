@@ -3,8 +3,9 @@ import Link from "next/link";
 import ContactForm from "./ContactForm";
 import { useTranslations } from "next-intl";
 import LocaleSwitcher from "./LocaleSwitcher";
+import { useContacForm } from "../hooks/useContactForm";
 
-export default function Header() {
+const Header = () => {
   const t = useTranslations("Header");
   const [navbarOpen, setNavbarOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
@@ -59,4 +60,12 @@ export default function Header() {
       </div>
     </header>
   );
+};
+
+export function toggleContactForm(e) {
+  e.preventDefault();
+  const { isOpen, setIsOpen } = useState(false);
+  setIsOpen(!isOpen);
 }
+
+export default Header;

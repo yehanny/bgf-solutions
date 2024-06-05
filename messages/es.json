@@ -35,6 +35,9 @@
     "message": "Mensaje",
     "message_text": "Deje su mensaje",
     "send": "Enviar",
+    "phone_number": "+58 414 6723791",
+    "email_data": "infobgfsolutions@gmail.com ventasbgfsolutions@gmail.com",
+    "address": "Avenida 20 con calle 73 Edif. 2073. Piso 8. Oficina 2. Maracaibo, Edo. Zulia, Venezuela",
     "errors": {
       "lastname": "Apellido es requerido",
       "email": "Formato email inválido (user@mail.com)",
