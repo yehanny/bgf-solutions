@@ -10,6 +10,7 @@ import { useTranslations } from "next-intl";
 import openGraphProps from "../types/openGraphProps";
 
 const Home: NextPage<openGraphProps> = () => {
+  const hostUrl = process.env.NEXT_PUBLIC_HOST_URL;
   const t = useTranslations("Home");
   const homeProps = {
     children: null,
@@ -17,10 +18,10 @@ const Home: NextPage<openGraphProps> = () => {
       og_url: "bgfsolutions.com",
       og_description: t("description"),
       og_title: t("page_title"),
-      og_image: "http://localhost:3000/Landing.jpg",
-      og_site_name: process.env.NODE ?? "",
+      og_image: `${hostUrl}/images/Landing.jpg`,
+      og_site_name: process.env.APP_NAME ?? "",
       keywords: t("keywords"),
-      author: process.env.NODE ?? "",
+      author: process.env.APP_NAME ?? "",
       description: t("description"),
     },
   };
