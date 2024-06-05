@@ -28,6 +28,7 @@ jobs:
           username: ${{ secrets.USERNAME }} # Your server's username
           key: ${{ secrets.SSH_PRIVATE_KEY }} # Your server's SSH private key
           script: |
+            whoami
             cd ${{ secrets.DEPLOY_PATH }}
             git pull
             npm install
