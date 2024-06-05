@@ -6,7 +6,6 @@ import { useTranslations } from "next-intl";
 import useGetUri from "../hooks/useGetUri";
 import openGraphProps from "../types/openGraphProps";
 import TopHeaderBanner from "../components/PageLayout/TopHeader";
-import Image from "next/image";
 
 const AboutUs = () => {
   const t = useTranslations("AboutUs");
@@ -44,7 +43,7 @@ const AboutUs = () => {
         <hr />
 
         <div className="flex flex-col md:flex-row gap-5 pb-10">
-          <Image src="/images/LogoLUZ.gif" alt="Logo LUZ" width={300} height={200} className="p-5 bg-gray-400 bg-opacity-20 rounded-xl card-hover space-y-5" />
+          <img src="/images/LogoLUZ.gif" alt="Logo LUZ" width={300} height={200} className="p-5 bg-gray-400 bg-opacity-20 rounded-xl card-hover space-y-5" />
           <div>
             <h2 className="text-xl mb-8">{t("inpeluz.title")}</h2>
             <p className="text-md">{t("inpeluz.description")}</p>

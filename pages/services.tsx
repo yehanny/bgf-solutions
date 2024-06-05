@@ -6,7 +6,6 @@ import { useTranslations } from "next-intl";
 import useGetUri from "../hooks/useGetUri";
 import openGraphProps from "../types/openGraphProps";
 import TopHeaderBanner from "../components/PageLayout/TopHeader";
-import Image from "next/image";
 
 const Services = () => {
   const t = useTranslations("Services");
@@ -71,8 +70,8 @@ const Services = () => {
         <h2 className="text-xl">{t("mixin_plant.title")}</h2>
         <p className="text-md">{t("mixin_plant.description")}</p>
         <div className="flex flex-wrap justify-between gap-5">
-          <Image src="/images/mixin-plant.jpg" alt="Mixin Plant" width={400} height={300} className="p-5 bg-gray-400 bg-opacity-20 rounded-xl card-hover space-y-5 w-full md:w-[49%]" />
-          <Image src="/images/mixin-plant2.jpg" alt="Mixin Plant" width={400} height={300} className="p-5 bg-gray-400 bg-opacity-20 rounded-xl card-hover space-y-5 w-full h-full md:w-[49%]" />
+          <img src="/images/mixin-plant.jpg" alt="Mixin Plant" width={400} height={300} className="p-5 bg-gray-400 bg-opacity-20 rounded-xl card-hover space-y-5 w-full md:w-[49%]" />
+          <img src="/images/mixin-plant2.jpg" alt="Mixin Plant" width={400} height={300} className="p-5 bg-gray-400 bg-opacity-20 rounded-xl card-hover space-y-5 w-full h-full md:w-[49%]" />
         </div>
       </InnerBody>
     </PageLayout>
