@@ -21,12 +21,11 @@ jobs:
       #   run: npm run build
 
       - name: SSH Deploy
-        # Use the 'appleboy/ssh-action' action for SSH deployment
         uses: appleboy/ssh-action@master
         with:
-          host: 141.148.163.55
-          username: opc
-          key: id_ed25519
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             whoami
             ls -lah
