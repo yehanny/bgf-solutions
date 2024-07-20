@@ -4,7 +4,6 @@ import PageLayout from "../components/PageLayout/PageLayout";
 import { GetStaticPropsContext } from "next";
 import Splash from "../components/Splash";
 import Landing from "../components/Landing";
-import Clients from "../components/Clients";
 import Services from "../components/Services";
 import { useTranslations } from "next-intl";
 import openGraphProps from "../types/openGraphProps";
@@ -29,7 +28,6 @@ const Home: NextPage<openGraphProps> = () => {
     <PageLayout {...homeProps}>
       <Splash />
       <Landing />
-      <Clients />
       <Services />
     </PageLayout>
   );
