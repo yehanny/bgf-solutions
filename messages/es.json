@@ -175,7 +175,7 @@
   "AboutUs": {
     "title": "Acerca de nosotros",
     "subtitle": "Somos BGF Solutions",
-    "description": "En BGF SOLUTIONS, C.A. nos dedicamos a la fabricación y distribución de productos químicos para la industria en general, buscando simplificar las tareas de nuestros clientes, así como minimizar el impacto ambiental que puedan tener en sus procesos industriales. , la protección de sus recursos humanos y de las comunidades vecinas.",
+    "description": "En BGF SOLUTIONS, C.A. nos dedicamos a la fabricación y distribución de productos químicos para la industria en general, buscando simplificar las tareas de nuestros clientes, así como minimizar el impacto ambiental que puedan tener en sus procesos industriales, la protección de sus recursos humanos y de las comunidades vecinas.",
     "keywords": "industria petrolera, petroquímica, minería, industria en general, distribución, productos químicos, fluidos de perforación, rehabilitación, terminación de pozos, tratamiento de agua potable, tratamiento de aguas residuales, tratamiento de agua de calderas, tratamiento químico de petróleo crudo para el área de refinación, servicio y monitoreo para tratamiento de endulzamiento de gases H2S y CO2, planta mezcladora",
     "image": "",
     "inpeluz": {
@@ -184,11 +184,11 @@
     },
     "mission": {
       "title": "Nuestra Misión",
-      "description": "En BGF Solutions, C.A, asumimos la misión de crear soluciones para nuestros clientes en la industria petrolerra a través de nuestro servicio especializado para la perforación, rehabilitación y completación de pozos petroleros, de la mano con la distribución de productos químicos de alta calidad y un recurso humano altamente capacitado, ético, responsable y comprometido en garantizar la satisfacción de las necesidades de nuestros clientes."
+      "description": "En BGF Solutions, C.A, asumimos la misión de crear soluciones para nuestros clientes en la industria petrolera, petroquímica y en la industria en general de la mano de un recurso humano altamente capacitado, ético, responsable y comprometido en garantizar la satisfacción de las necesidades de nuestros clientes."
     },
     "vision": {
       "title": "Nuestra Visión",
-      "description": "Liderar el mercado nacional en el área de servicio de perforación, rehabilitación y completación de pozos petroleros, de suministro de productos químicos, materiales y equipos de alta calidad para la industria petrolorera, minera, manufacturera, de construcción y la industria en general."
+      "description": "Liderar el mercado nacional en el área petrolera, petroquímica e industria en general, así como el suministro de productos químicos, materiales y equipos de alta calidad para dichas industrias."
     }
   },
   "Footer": {
